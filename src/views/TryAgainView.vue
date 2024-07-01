@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import bgTryAgain from '@/assets/img/pages/questions/bg-try-again.png'
-import buttonSpin from '@/assets/img/pages/questions/button-spin.png'
-import tryAgainQuestion from '@/assets/img/pages/questions/try-again-question.png'
-import tryAgain from '@/assets/img/pages/questions/try-again.png'
+import bgTryAgain from '@/assets/img/pages/questions/bg-try-again.webp'
+import buttonSpin from '@/assets/img/pages/questions/button-spin.webp'
+import tryAgainQuestion from '@/assets/img/pages/questions/try-again-question.webp'
+import tryAgain from '@/assets/img/pages/questions/try-again.webp'
 import { useMotion } from '@vueuse/motion'
 import { onMounted, ref } from 'vue'
 import { onBeforeRouteLeave } from 'vue-router'
@@ -96,7 +96,7 @@ onMounted(() => {
     <div class="h-[20%] w-full flex flex-col items-center justify-center py-4 px-8">
       <img
         class="object-contain w-full h-full"
-        src="@/assets/img/pages/home/logo-crema-n4.png"
+        src="@/assets/img/pages/home/logo-crema-n4.webp"
         alt=""
         srcset=""
         ref="section1"

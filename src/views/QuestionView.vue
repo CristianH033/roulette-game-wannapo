@@ -1,24 +1,24 @@
 <script setup lang="ts">
-import bgCalendula from '@/assets/img/pages/questions/bg-calendula.png'
-import bgCapaLigera from '@/assets/img/pages/questions/bg-capa-ligera.png'
-import bgCapaTransparente from '@/assets/img/pages/questions/bg-capa-transparente.png'
-import bgNistatina from '@/assets/img/pages/questions/bg-nistatina.png'
-import bgOxidoZinc from '@/assets/img/pages/questions/bg-oxido-zinc.png'
-import bgTryAgain from '@/assets/img/pages/questions/bg-try-again.png'
-import buttonSpin from '@/assets/img/pages/questions/button-spin.png'
-import calendulaQuestion from '@/assets/img/pages/questions/calendula-question.png'
-import calendula from '@/assets/img/pages/questions/calendula.png'
-import capaLigeraQuestion from '@/assets/img/pages/questions/capa-ligera-question.png'
-import capaLigera from '@/assets/img/pages/questions/capa-ligera.png'
-import capaTransparenteQuestion from '@/assets/img/pages/questions/capa-transparente-question.png'
-import capaTransparente from '@/assets/img/pages/questions/capa-transparente.png'
-import nistatinaQuestion from '@/assets/img/pages/questions/nistatina-question.png'
-import nistatina from '@/assets/img/pages/questions/nistatina.png'
-import oxidoZincQuestion from '@/assets/img/pages/questions/oxido-zinc-question.png'
-import oxidoZinc from '@/assets/img/pages/questions/oxido-zinc.png'
-import ribbon from '@/assets/img/pages/questions/ribbon.png'
-import tryAgainQuestion from '@/assets/img/pages/questions/try-again-question.png'
-import tryAgain from '@/assets/img/pages/questions/try-again.png'
+import bgCalendula from '@/assets/img/pages/questions/bg-calendula.webp'
+import bgCapaLigera from '@/assets/img/pages/questions/bg-capa-ligera.webp'
+import bgCapaTransparente from '@/assets/img/pages/questions/bg-capa-transparente.webp'
+import bgNistatina from '@/assets/img/pages/questions/bg-nistatina.webp'
+import bgOxidoZinc from '@/assets/img/pages/questions/bg-oxido-zinc.webp'
+import bgTryAgain from '@/assets/img/pages/questions/bg-try-again.webp'
+import buttonSpin from '@/assets/img/pages/questions/button-spin.webp'
+import calendulaQuestion from '@/assets/img/pages/questions/calendula-question.webp'
+import calendula from '@/assets/img/pages/questions/calendula.webp'
+import capaLigeraQuestion from '@/assets/img/pages/questions/capa-ligera-question.webp'
+import capaLigera from '@/assets/img/pages/questions/capa-ligera.webp'
+import capaTransparenteQuestion from '@/assets/img/pages/questions/capa-transparente-question.webp'
+import capaTransparente from '@/assets/img/pages/questions/capa-transparente.webp'
+import nistatinaQuestion from '@/assets/img/pages/questions/nistatina-question.webp'
+import nistatina from '@/assets/img/pages/questions/nistatina.webp'
+import oxidoZincQuestion from '@/assets/img/pages/questions/oxido-zinc-question.webp'
+import oxidoZinc from '@/assets/img/pages/questions/oxido-zinc.webp'
+import ribbon from '@/assets/img/pages/questions/ribbon.webp'
+import tryAgainQuestion from '@/assets/img/pages/questions/try-again-question.webp'
+import tryAgain from '@/assets/img/pages/questions/try-again.webp'
 import { useMotion } from '@vueuse/motion'
 import { computed, onMounted, ref } from 'vue'
 import { onBeforeRouteLeave, useRouter } from 'vue-router'
@@ -172,7 +172,7 @@ onMounted(() => {
     <div class="h-[15%] w-full flex flex-col items-center justify-center py-4 px-8 pt-12 scale-125">
       <img
         class="object-contain w-full h-full"
-        src="@/assets/img/pages/home/logo-crema-n4.png"
+        src="@/assets/img/pages/home/logo-crema-n4.webp"
         alt=""
         srcset=""
         ref="section1"

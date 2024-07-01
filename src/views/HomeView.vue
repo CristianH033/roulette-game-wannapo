@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import Roullete from '@/components/Roullete.vue'
-import bg from '@/assets/img/pages/home/bg.png'
+import bg from '@/assets/img/pages/home/bg.webp'
 import { onMounted, ref } from 'vue'
 import { useGameStore } from '@/stores/game'
 import { onBeforeRouteLeave, useRouter } from 'vue-router'
@@ -31,7 +31,7 @@ const spinTheWheel = async () => {
       } else {
         router.push({ name: 'try-again' })
       }
-    }, 1000)
+    }, 600)
   }
 }
 
@@ -94,7 +94,7 @@ onMounted(() => {
     <div class="h-[10%] w-full overflow-hidden p-3" ref="section1">
       <img
         class="object-contain w-full h-full"
-        src="@/assets/img/pages/home/logo-crema-n4.png"
+        src="@/assets/img/pages/home/logo-crema-n4.webp"
         alt=""
         srcset=""
       />
@@ -102,7 +102,7 @@ onMounted(() => {
     <div class="h-[20%] w-full overflow-hidden p-3" ref="section2">
       <img
         class="object-contain w-full h-full"
-        src="@/assets/img/pages/home/text.png"
+        src="@/assets/img/pages/home/text.webp"
         alt=""
         srcset=""
       />
@@ -114,7 +114,7 @@ onMounted(() => {
       <div class="h-full" ref="section4">
         <img
           class="-mt-3 ml-3 active:scale-125 transition-transform object-contain aspect-square h-full scale-150 origin-center"
-          src="@/assets/img/pages/home/button.png"
+          src="@/assets/img/pages/home/button.webp"
           alt=""
           srcset=""
           @click="spinTheWheel"
@@ -123,7 +123,7 @@ onMounted(() => {
     </div>
     <img
       class="fixed bottom-0 right-0 w-1/2 max-w-xs"
-      src="@/assets/img/pages/home/bottom-ribbon.png"
+      src="@/assets/img/pages/home/bottom-ribbon.webp"
       alt=""
     />
   </div>

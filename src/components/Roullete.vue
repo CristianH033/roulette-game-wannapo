@@ -84,7 +84,7 @@ defineExpose({
       <div class="absolute top-0 left-0 w-full h-full p-[10%]">
         <img
           class="w-full h-full"
-          src="@/assets/img/pages/home/wheel.png"
+          src="@/assets/img/pages/home/wheel.webp"
           alt=""
           srcset=""
           ref="wheelEl"
@@ -93,7 +93,7 @@ defineExpose({
       <div class="absolute top-0 left-0 w-full h-full">
         <img
           class="w-full h-full rounded-full"
-          src="@/assets/img/pages/home/frame.png"
+          src="@/assets/img/pages/home/frame.webp"
           alt=""
           srcset=""
         />
@@ -101,7 +101,7 @@ defineExpose({
       <div class="absolute top-0 mx-auto w-full h-[15%] flex justify-center">
         <img
           class="-mt-[2%] w-auto h-full"
-          src="@/assets/img/pages/home/indicator.png"
+          src="@/assets/img/pages/home/indicator.webp"
           alt=""
           srcset=""
         />
