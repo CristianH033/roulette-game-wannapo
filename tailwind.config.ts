@@ -22,6 +22,10 @@ export default {
       containers: {
         '2xs': '16rem'
       },
+      width: {
+        '2xs': '16rem',
+        '3xl': '1920px'
+      },
       colors: {}
     }
   },

@@ -9,6 +9,8 @@
   body {
     @apply w-screen h-dvh;
     @apply overflow-x-hidden overflow-y-hidden;
+
+    background-color: #a8dbff;
   }
 }
 
