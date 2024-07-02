@@ -1,1 +1,0 @@
-import{m as e,b as t,e as c}from"./index-D4Ev8R4e.js";const s={},o={class:"text-center text-3xl"};function n(a,r){return t(),c("h1",o,"This is an about page")}const i=e(s,[["render",n]]);export{i as default};
