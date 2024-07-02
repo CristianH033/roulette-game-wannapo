@@ -22,7 +22,7 @@ export default defineConfig({
         name: 'Roulette Game',
         short_name: 'Roulette Game',
         description: 'Roulette Game by Wannapo',
-        theme_color: '#000000',
+        theme_color: 'rgb(0, 80, 157)',
         icons: [
           {
             src: 'pwa-64x64.png',
