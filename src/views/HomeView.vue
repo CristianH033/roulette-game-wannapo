@@ -91,17 +91,17 @@ onMounted(() => {
     ref="bgEl"
   >
     <img class="w-12 h-12 fixed top-2 left-2" src="@/assets/img/logos/qlogo.svg" alt="" srcset="" />
-    <div class="h-[10%] w-full overflow-hidden p-3" ref="section1">
+    <div class="h-[10%] w-full overflow-visible p-3" ref="section1">
       <img
-        class="object-contain w-full h-full"
+        class="object-contain w-full h-full scale-[1.5] origin-top"
         src="@/assets/img/pages/home/logo-crema-n4.webp"
         alt=""
         srcset=""
       />
     </div>
-    <div class="h-[20%] w-full overflow-hidden p-3" ref="section2">
+    <div class="h-[20%] w-full overflow-visible p-3 mt-3 -mb-3" ref="section2">
       <img
-        class="object-contain w-full h-full"
+        class="object-contain w-full h-full scale-[1.3] origin-top"
         src="@/assets/img/pages/home/text.webp"
         alt=""
         srcset=""
@@ -113,7 +113,7 @@ onMounted(() => {
     <div class="h-[15%] w-full p-3 flex flex-col justify-center items-start">
       <div class="h-full" ref="section4">
         <img
-          class="-mt-3 ml-3 active:scale-125 transition-transform object-contain aspect-square h-full scale-150 origin-center"
+          class="-mt-5 ml-5 active:scale-110 transition-transform object-contain aspect-square h-full scale-150 origin-center"
           src="@/assets/img/pages/home/button.webp"
           alt=""
           srcset=""
