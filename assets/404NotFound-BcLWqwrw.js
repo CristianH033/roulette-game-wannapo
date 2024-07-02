@@ -1,0 +1,1 @@
+import{m as e,b as t,e as o}from"./index-D4Ev8R4e.js";const c={},n={class:"text-center text-3xl"};function s(r,_){return t(),o("h1",n,"Page Not Found")}const d=e(c,[["render",s]]);export{d as default};

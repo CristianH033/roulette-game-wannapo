@@ -1,0 +1,1 @@
+const a="/roulette-game-wannapo/assets/bg-try-again-CSWKFUBr.webp",t="/roulette-game-wannapo/assets/button-spin-LmOc2byV.webp",n="/roulette-game-wannapo/assets/try-again-question-Cz4nV3px.webp",e="/roulette-game-wannapo/assets/try-again-CEYGMYCL.webp";export{a,t as b,n as c,e as t};
